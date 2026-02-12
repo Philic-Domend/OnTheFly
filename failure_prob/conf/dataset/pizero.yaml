@@ -1,0 +1,23 @@
+defaults:
+  - base_pizero
+
+data_path_prefix: ""
+data_path: "pi0-libero_10"
+
+data_paths:
+  - pi0-libero_10
+  - pi0-libero_90
+  - pi0-libero_goal
+  - pi0-libero_spatial
+
+success_labels_paths:
+  - pi0-libero_10/env_records
+  - pi0-libero_90/env_records
+  - pi0-libero_goal/env_records
+  - pi0-libero_spatial/env_records
+
+task_names:
+  - libero_10
+  - libero_90
+  - libero_goal
+  - libero_spatial
